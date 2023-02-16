@@ -1,0 +1,33 @@
+{
+    "name": "infinity-it/e-commerce-google-calendar",
+    "autoload": {
+        "psr-4": {
+            "ECommerce\\EGoogleCalendar\\": "src/"
+        }
+    },
+    "license": "proprietary",
+    "homepage": "https://github.com/infinity-it/e-commerce-google-calendar",
+    "authors": [
+        {
+            "name": "mohamedhk2",
+            "email": "mohamedhk2@yahoo.fr"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "laravel/framework": "*",
+        "nesbot/carbon": "*",
+        "spatie/laravel-google-calendar": "*"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.4"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
