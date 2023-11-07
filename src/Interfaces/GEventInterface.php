@@ -1,6 +1,6 @@
 <?php
 
-namespace ECommerce\EGoogleCalendar;
+namespace ECommerce\EGoogleCalendar\Interfaces;
 
 use Spatie\GoogleCalendar\Event;
 

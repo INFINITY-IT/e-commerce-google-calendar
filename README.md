@@ -6,13 +6,13 @@
 
 ```json
 {
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@github.com:INFINITY-IT/e-commerce-google-calendar.git",
-      "or url": "https://username:token@github.com/infinity-it/e-commerce-google-calendar.git"
-    }
-  ]
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:INFINITY-IT/e-commerce-google-calendar.git",
+            "or url": "https://username:token@github.com/infinity-it/e-commerce-google-calendar.git"
+        }
+    ]
 }
 ```
 
@@ -31,8 +31,8 @@ composer require "infinity-it/e-commerce-google-calendar"
 ```php
 namespace App\Models;
 
-use ECommerce\EGoogleCalendar\GEventInterface;
-use ECommerce\EGoogleCalendar\GEventTrait;
+use ECommerce\EGoogleCalendar\Interfaces\GEventInterface;
+use ECommerce\EGoogleCalendar\Traits\GEventTrait;
 
 class MyModel implements GEventInterface
 {
@@ -63,9 +63,16 @@ class MyModel implements GEventInterface
 ```
 
 ### 7. usage
+
 ```php
 $my_model = App\Models\MyModel::find(1);
 $my_model->saveInGCalendar();
 $my_model->start = \Carbon\Carbon::now();
 $my_model->updateInGCalendar();
+```
+
+### 8. Check Google Calendar connection
+
+```shell
+php artisan calendar:check
 ```
