@@ -25,6 +25,14 @@ trait GEventTrait
 	}
 
 	/**
+	 * @return string|null
+	 */
+	function getGEventId(): ?string
+	{
+		return $this->{$this->getGEventIdKey()};
+	}
+
+	/**
 	 * @return Event
 	 */
 	public function updateInGCalendar(): Event
@@ -45,6 +53,6 @@ trait GEventTrait
 	 */
 	function setGEventId($google_event_id = null): bool
 	{
-		return $this->update([$this->getGEventId() => $google_event_id]);
+		return $this->update([$this->getGEventIdKey() => $google_event_id]);
 	}
 }

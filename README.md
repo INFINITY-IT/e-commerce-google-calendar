@@ -36,23 +36,23 @@ use ECommerce\EGoogleCalendar\Traits\GEventTrait;
 
 class MyModel implements GEventInterface
 {
-    use GEventTrait;
+	use GEventTrait;
 
-    function toGEvent(\Spatie\GoogleCalendar\Event &$event)
-    {
-        // TODO: Implement toGEvent() method.
-        // $event->name = $this->title;
-        // $event->description = $this->description;
-        // $event->startDateTime = $this->start;
-        // $event->endDateTime = $this->end;
-        // ...
-    }
+	function toGEvent(\Spatie\GoogleCalendar\Event &$event)
+	{
+		// TODO: Implement toGEvent() method.
+		// $event->name = $this->title;
+		// $event->description = $this->description;
+		// $event->startDateTime = $this->start;
+		// $event->endDateTime = $this->end;
+		// ...
+	}
 
-    function getGEventId(): ?string
-    {
-        // TODO: Implement getGEventId() method.
-        // return $this->event_id;
-    }
+	function getGEventIdKey(): string
+	{
+		// TODO: Implement getGEventIdKey() method.
+		// return 'event_id';
+	}
 }
 ```
 
