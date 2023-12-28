@@ -53,12 +53,6 @@ class MyModel implements GEventInterface
         // TODO: Implement getGEventId() method.
         // return $this->event_id;
     }
-
-    function setGEventId($google_event_id = null): bool
-    {
-        // TODO: Implement setGEventId() method.
-        // $this->update(['event_id' => $google_event_id]);
-    }
 }
 ```
 
