@@ -88,3 +88,14 @@ use ECommerce\EGoogleCalendar\Enums\GEventColorId;
 - <div style="background-color: #5484ED; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::BLUEBERRY`
 - <div style="background-color: #51B749; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::BASIL`
 - <div style="background-color: #DC2127; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::TOMATO`
+
+    - Usage:
+      ```php
+      use Spatie\GoogleCalendar\Event;
+      use ECommerce\EGoogleCalendar\Enums\GEventColorId;
+      
+      function toGEvent(Event &$event): void
+      {
+          $event->setColorId(GEventColorId::TOMATO->value);
+      }
+      ```
