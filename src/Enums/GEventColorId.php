@@ -5,7 +5,7 @@ namespace ECommerce\EGoogleCalendar\Enums;
  * @see https://developers.google.com/apps-script/reference/calendar/event-color
  * @see https://google-calendar-simple-api.readthedocs.io/en/latest/colors.html
  */
-enum GEventColorsId: int
+enum GEventColorId: int
 {
 	case LAVENDER = 1;
 	case SAGE = 2;
