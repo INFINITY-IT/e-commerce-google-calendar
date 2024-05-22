@@ -55,4 +55,14 @@ trait GEventTrait
 	{
 		return $this->update([$this->getGEventIdKey() => $google_event_id]);
 	}
+
+	/**
+	 * @return Event|null
+	 */
+	function getGEvent(): ?Event
+	{
+		if (!empty($this->getGEventIdKey()))
+			return Event::find($this->{$this->getGEventIdKey()});
+		return null;
+	}
 }

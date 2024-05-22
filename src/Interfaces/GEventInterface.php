@@ -37,4 +37,9 @@ interface GEventInterface
 	 * @return string
 	 */
 	function getGEventIdKey(): string;
+
+	/**
+	 * @return Event|null
+	 */
+	function getGEvent(): ?Event;
 }
