@@ -14,8 +14,10 @@
         }
     ],
     "require": {
-        "php": "^7.2 || ^8.0",
-        "laravel/framework": "*",
+        "php": "^8.1",
+        "illuminate/console": "*",
+        "illuminate/database": "*",
+        "illuminate/support": "*",
         "nesbot/carbon": "*",
         "spatie/laravel-google-calendar": "*"
     },

@@ -31,12 +31,16 @@ class CheckGoogleCalendarCommand extends Command
 		try {
 			Event::get();
 			$this->info('Successfully connected to Google Calendar');
-			# return Command::SUCCESS
-			return 0;
+			if (defined('self::SUCCESS'))
+				return self::SUCCESS;
+			else
+				return 0;
 		} catch (\Exception $e) {
 			$this->error('Could not connect to Google Calendar:' . PHP_EOL . $e->getMessage());
-			# return Command::FAILURE
-			return 1;
+			if (defined('self::FAILURE'))
+				return self::FAILURE;
+			else
+				return 1;
 		}
 	}
 }
