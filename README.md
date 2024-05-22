@@ -77,14 +77,14 @@ php artisan calendar:check
 use ECommerce\EGoogleCalendar\Enums\GEventColorId;
 ```
 
-- <div style="background-color: #a4bdfc; display: inline-block; height: 10px; width: 10px;"/> `GEventColorId::LAVENDER`
-- <div style="background-color: #7AE7BF; display: inline-block; height: 10px; width: 10px;"/> `GEventColorId::SAGE`
-- <div style="background-color: #BDADFF; display: inline-block; height: 10px; width: 10px;"/> `GEventColorId::GRAPE`
-- <div style="background-color: #FF887C; display: inline-block; height: 10px; width: 10px;"/> `GEventColorId::FLAMINGO`
-- <div style="background-color: #FBD75B; display: inline-block; height: 10px; width: 10px;"/> `GEventColorId::BANANA`
-- <div style="background-color: #FFB878; display: inline-block; height: 10px; width: 10px;"/> `GEventColorId::TANGERINE`
-- <div style="background-color: #46D6DB; display: inline-block; height: 10px; width: 10px;"/> `GEventColorId::PEACOCK`
-- <div style="background-color: #E1E1E1; display: inline-block; height: 10px; width: 10px;"/> `GEventColorId::GRAPHITE`
-- <div style="background-color: #5484ED; display: inline-block; height: 10px; width: 10px;"/> `GEventColorId::BLUEBERRY`
-- <div style="background-color: #51B749; display: inline-block; height: 10px; width: 10px;"/> `GEventColorId::BASIL`
-- <div style="background-color: #DC2127; display: inline-block; height: 10px; width: 10px;"/> `GEventColorId::TOMATO`
+- <div style="background-color: #a4bdfc; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::LAVENDER`
+- <div style="background-color: #7AE7BF; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::SAGE`
+- <div style="background-color: #BDADFF; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::GRAPE`
+- <div style="background-color: #FF887C; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::FLAMINGO`
+- <div style="background-color: #FBD75B; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::BANANA`
+- <div style="background-color: #FFB878; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::TANGERINE`
+- <div style="background-color: #46D6DB; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::PEACOCK`
+- <div style="background-color: #E1E1E1; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::GRAPHITE`
+- <div style="background-color: #5484ED; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::BLUEBERRY`
+- <div style="background-color: #51B749; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::BASIL`
+- <div style="background-color: #DC2127; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::TOMATO`
