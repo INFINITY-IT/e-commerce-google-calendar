@@ -73,29 +73,33 @@ php artisan calendar:check
 
 ### Google Event Colors:
 
-```php
-use ECommerce\EGoogleCalendar\Enums\GEventColorId;
-```
+- Import:
+  ```php
+  use ECommerce\EGoogleCalendar\Enums\GEventColorId;
+  ```
 
-- <div style="background-color: #a4bdfc; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::LAVENDER`
-- <div style="background-color: #7AE7BF; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::SAGE`
-- <div style="background-color: #BDADFF; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::GRAPE`
-- <div style="background-color: #FF887C; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::FLAMINGO`
-- <div style="background-color: #FBD75B; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::BANANA`
-- <div style="background-color: #FFB878; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::TANGERINE`
-- <div style="background-color: #46D6DB; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::PEACOCK`
-- <div style="background-color: #E1E1E1; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::GRAPHITE`
-- <div style="background-color: #5484ED; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::BLUEBERRY`
-- <div style="background-color: #51B749; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::BASIL`
-- <div style="background-color: #DC2127; display: inline-block; height: 10px; width: 10px;"></div> `GEventColorId::TOMATO`
+- Colors
+    - <img src="https://via.placeholder.com/10/a4bdfc/a4bdfc.png"/> `GEventColorId::LAVENDER`
+    - <img src="https://via.placeholder.com/10/7AE7BF/7AE7BF.png"/> `GEventColorId::SAGE`
+    - <img src="https://via.placeholder.com/10/BDADFF/BDADFF.png"/> `GEventColorId::GRAPE`
+    - <img src="https://via.placeholder.com/10/FF887C/FF887C.png"/> `GEventColorId::FLAMINGO`
+    - <img src="https://via.placeholder.com/10/FBD75B/FBD75B.png"/> `GEventColorId::BANANA`
+    - <img src="https://via.placeholder.com/10/FFB878/FFB878.png"/> `GEventColorId::TANGERINE`
+    - <img src="https://via.placeholder.com/10/46D6DB/46D6DB.png"/> `GEventColorId::PEACOCK`
+    - <img src="https://via.placeholder.com/10/E1E1E1/E1E1E1.png"/> `GEventColorId::GRAPHITE`
+    - <img src="https://via.placeholder.com/10/5484ED/5484ED.png"/> `GEventColorId::BLUEBERRY`
+    - <img src="https://via.placeholder.com/10/51B749/51B749.png"/> `GEventColorId::BASIL`
+    - <img src="https://via.placeholder.com/10/DC2127/DC2127.png"/> `GEventColorId::TOMATO`
 
-    - Usage:
-      ```php
-      use Spatie\GoogleCalendar\Event;
-      use ECommerce\EGoogleCalendar\Enums\GEventColorId;
-      
-      function toGEvent(Event &$event): void
-      {
-          $event->setColorId(GEventColorId::TOMATO->value);
-      }
-      ```
+- Usage:
+  ```php
+  use Spatie\GoogleCalendar\Event;
+  use ECommerce\EGoogleCalendar\Enums\GEventColorId;
+  
+  // ...     
+  function toGEvent(Event &$event): void
+  {
+      $event->setColorId(GEventColorId::TOMATO->value);
+  }
+  // ...
+  ```
