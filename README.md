@@ -79,17 +79,17 @@ php artisan calendar:check
   ```
 
 - Colors
-    - <img src="https://via.placeholder.com/10/a4bdfc/a4bdfc.png"/> `GEventColorId::LAVENDER`
-    - <img src="https://via.placeholder.com/10/7AE7BF/7AE7BF.png"/> `GEventColorId::SAGE`
-    - <img src="https://via.placeholder.com/10/BDADFF/BDADFF.png"/> `GEventColorId::GRAPE`
-    - <img src="https://via.placeholder.com/10/FF887C/FF887C.png"/> `GEventColorId::FLAMINGO`
-    - <img src="https://via.placeholder.com/10/FBD75B/FBD75B.png"/> `GEventColorId::BANANA`
-    - <img src="https://via.placeholder.com/10/FFB878/FFB878.png"/> `GEventColorId::TANGERINE`
-    - <img src="https://via.placeholder.com/10/46D6DB/46D6DB.png"/> `GEventColorId::PEACOCK`
-    - <img src="https://via.placeholder.com/10/E1E1E1/E1E1E1.png"/> `GEventColorId::GRAPHITE`
-    - <img src="https://via.placeholder.com/10/5484ED/5484ED.png"/> `GEventColorId::BLUEBERRY`
-    - <img src="https://via.placeholder.com/10/51B749/51B749.png"/> `GEventColorId::BASIL`
-    - <img src="https://via.placeholder.com/10/DC2127/DC2127.png"/> `GEventColorId::TOMATO`
+    - <img src="https://placehold.co/10/a4bdfc/a4bdfc.png"/> `GEventColorId::LAVENDER`
+    - <img src="https://placehold.co/10/7AE7BF/7AE7BF.png"/> `GEventColorId::SAGE`
+    - <img src="https://placehold.co/10/BDADFF/BDADFF.png"/> `GEventColorId::GRAPE`
+    - <img src="https://placehold.co/10/FF887C/FF887C.png"/> `GEventColorId::FLAMINGO`
+    - <img src="https://placehold.co/10/FBD75B/FBD75B.png"/> `GEventColorId::BANANA`
+    - <img src="https://placehold.co/10/FFB878/FFB878.png"/> `GEventColorId::TANGERINE`
+    - <img src="https://placehold.co/10/46D6DB/46D6DB.png"/> `GEventColorId::PEACOCK`
+    - <img src="https://placehold.co/10/E1E1E1/E1E1E1.png"/> `GEventColorId::GRAPHITE`
+    - <img src="https://placehold.co/10/5484ED/5484ED.png"/> `GEventColorId::BLUEBERRY`
+    - <img src="https://placehold.co/10/51B749/51B749.png"/> `GEventColorId::BASIL`
+    - <img src="https://placehold.co/10/DC2127/DC2127.png"/> `GEventColorId::TOMATO`
 
 - Usage:
   ```php
