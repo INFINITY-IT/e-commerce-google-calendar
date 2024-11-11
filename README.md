@@ -2,31 +2,17 @@
     <h1>E-Commerce Google Calendar</h1>
 </p>
 
-### 1. composer.json
-
-```json
-{
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:INFINITY-IT/e-commerce-google-calendar.git",
-            "or url": "https://username:token@github.com/infinity-it/e-commerce-google-calendar.git"
-        }
-    ]
-}
-```
-
-### 2. Installation
+### 1. Installation
 
 ```sh
 composer require "infinity-it/e-commerce-google-calendar"
 ```
 
-### 3. Configuration file
+### 2. Configuration file
 
 [README](https://github.com/spatie/laravel-google-calendar#installation)
 
-### 4. Implement Model
+### 3. Implement Model
 
 ```php
 namespace App\Models;
@@ -56,7 +42,7 @@ class MyModel implements GEventInterface
 }
 ```
 
-### 7. usage
+### 4. usage
 
 ```php
 $my_model = App\Models\MyModel::find(1);
@@ -65,7 +51,7 @@ $my_model->start = \Carbon\Carbon::now();
 $my_model->updateInGCalendar();
 ```
 
-### 8. Check Google Calendar connection
+### 5. Check Google Calendar connection
 
 ```shell
 php artisan calendar:check
